@@ -2,7 +2,7 @@
 # Topological Ordering is an ordering of vertices such that vertex i appears before vertex j in the ordering iff
 # vertex i cannot be reached from vertex j, for every pair of vertices (i,j)
 
-k = open(r"C:\Users\Jasraj Singh\Desktop\Codes\DFS (self written)\Topological Sort of DAG\DFS.txt", "r")
+k = open("DFS.txt", "r")
 lines = k.readlines()
 
 # A dictionary of edges, _dict, such that the value of each key is a list of elements such that there exists an edge 
