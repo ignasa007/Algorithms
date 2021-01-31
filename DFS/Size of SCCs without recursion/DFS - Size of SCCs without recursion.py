@@ -6,7 +6,7 @@
 # from the head. Now, because the edge connecting the head and the tail is reversed, we cannot reach from the tail to the head, 
 # leaving the head scc unexplored in tail's dfs.
 
-k = open(r"C:\Users\Jasraj Singh\Desktop\Codes\DFS (self written)\Size of SCCs without recursion\SCC.txt","r")
+k = open("SCC.txt","r")
 lines = k.readlines()
 numV = len(lines)
 
