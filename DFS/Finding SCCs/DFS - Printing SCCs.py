@@ -6,7 +6,7 @@
 # from the head. Now, because the edge connecting the head and the tail is reversed, we cannot reach from the tail to the head, 
 # leaving the head scc unexplored in tail's dfs.
 
-k = open(r"C:\Users\Jasraj Singh\Desktop\Codes\DFS (self written)\Finding SCCs\DFS.txt","r")
+k = open("DFS.txt","r")
 lines = k.readlines()
 
 # A dictionary of edges, _dict, such that the value of each key is a list of elements such that there exists an edge 
