@@ -10,7 +10,7 @@ where length(s~v-d)>length(s~u1-d) for all poosible options of v because we choo
 s~v~u2-d cannot have a shorter path length since length(s~v~u2-d)>length(s~v-d).
 '''
 
-k = open(r"C:\Users\Jasraj Singh\Desktop\Codes\Dijkstra's Algorithm (self written)\dijkstraData.txt")
+k = open("dijkstraData.txt")
 lines = k.readlines()
 
 '''
